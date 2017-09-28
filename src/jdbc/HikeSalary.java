@@ -12,7 +12,8 @@ public class HikeSalary {
 			
 			Statement st = con.createStatement();
 			int count = st.executeUpdate("update employees set salary = 7500 where employee_id = 150");
-			
+			// one more statement 
+			// one more statement
             if ( count == 1)
             	System.out.println("Updated Successfully!");
             else
