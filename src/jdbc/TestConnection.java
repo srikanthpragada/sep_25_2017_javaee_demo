@@ -7,7 +7,13 @@ public class TestConnection {
 
 	public static void main(String[] args) throws Exception {
 
-		try (Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "hr", "hr")) {
+//		try (Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "hr", "hr")) {
+//			System.out.println("Connected!");
+//
+//		}
+		
+		
+		try (Connection con = OracleDatabase.getConnection()) {
 			System.out.println("Connected!");
 
 		}

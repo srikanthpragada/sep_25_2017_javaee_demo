@@ -8,7 +8,7 @@ public class HikeSalary {
 
 	public static void main(String[] args) throws Exception {
 
-		try (Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "hr", "hr")) {
+		try (Connection con = OracleDatabase.getConnection()) {
 			
 			Statement st = con.createStatement();
 			int count = st.executeUpdate("update employees set salary = 7500 where employee_id = 150");
