@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/jaxws/HelloService.java=UTF-8
+encoding//src/jaxws/HelloServicePortBindingStub.java=UTF-8
+encoding//src/jaxws/HelloServiceService.java=UTF-8
+encoding//src/jaxws/HelloServiceServiceLocator.java=UTF-8
+encoding//src/net/webservicex/www/Whois.java=UTF-8
+encoding//src/net/webservicex/www/WhoisLocator.java=UTF-8
+encoding//src/net/webservicex/www/WhoisSoap.java=UTF-8
+encoding//src/net/webservicex/www/WhoisSoapStub.java=UTF-8
